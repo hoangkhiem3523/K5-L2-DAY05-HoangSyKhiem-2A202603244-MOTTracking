@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — HoVaTen-MSSV
+# Báo cáo cá nhân — HoangSyKhiem-2A202603244
 
 Đổi tên file theo quy tắc `MSSV_HoTen.md`. Ví dụ: `20241234_NguyenVanAn.md`.
 
@@ -6,12 +6,12 @@
 
 ## 0. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Mã đề (A/B/C):
-- Email:
-- Link repository:
-- Giờ bắt đầu:
+- Họ tên: Hoang Sy Khiem
+- MSSV: 2A202603244
+- Mã đề (A/B/C): A
+- Email: hoangsikhiem3523@gmail.com
+- Link repository: https://github.com/hoangkhiem3523/K5-L2-DAY05-HoangSyKhiem-2A202603244-MOTTracking
+- Giờ bắt đầu: 16:50 (13/11/2026)
 - Giờ kết thúc:
 
 ## 1. Xem trước đoạn video (CP0)
