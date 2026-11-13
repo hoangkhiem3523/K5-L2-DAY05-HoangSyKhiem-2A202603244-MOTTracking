@@ -75,15 +75,18 @@ Loại lỗi dùng đúng một trong 7 mã: `id_switch`, `fragmentation`, `lost
 
 | Frame | Mã người | Loại lỗi | Mô tả một câu | Phát hiện ở lượt | Đã sửa? |
 |---:|---|---|---|---|---|
-| 41 | P1 | false_track | Ban đầu vẽ nhầm thêm 1 track cho người đi ngược ra mép trái | Lượt 2 | Đã xóa |
-| 0 | P5 | false_track | Ban đầu vẽ thêm track cho người đứng sau cô gái áo trắng (thuộc đề B) | Lượt 2 | Đã xóa |
-| 0 | P-ngoài | false_track | Ban đầu vẽ thêm người đi bộ ngang qua tiền cảnh ở góc trái | Lượt 2 | Đã xóa |
+| 74 | P3 | drift | Box nội suy bị chậm hơn người do sải chân bước nhanh | Lượt 1 (theo người) | Đã thêm keyframe nắn lại box |
+| 30 | P1 | flag | Thiếu cờ occluded khi bắt đầu bị biển hiệu/người che một phần | Lượt 1 (theo người) | Đã bấm Q bật occluded |
+| 44 | P4 | drift | Box bị lệch nhẹ khi người đổi hướng đi sau P3 | Lượt 1 (theo người) | Đã thêm keyframe tại frame 44 |
+| 41 | P1 | false_track | Ban đầu vẽ nhầm thêm 1 track cho người đi ngược ra mép trái | Lượt 2 (theo cảnh) | Đã xóa track thừa |
+| 0 | P5 | false_track | Ban đầu vẽ thêm track cho người đứng sau cô gái áo trắng (thuộc đề B) | Lượt 2 (theo cảnh) | Đã xóa track thừa |
+| 0 | P-ngoài | false_track | Ban đầu vẽ thêm người đi bộ ngang qua tiền cảnh ở góc trái | Lượt 2 (theo cảnh) | Đã xóa track thừa |
 
 Tổng hợp số lỗi theo loại:
 
 | `id_switch` | `fragmentation` | `lost` | `merge` | `false_track` | `drift` | `flag` |
 |---:|---:|---:|---:|---:|---:|---:|
-| 0 | 0 | 0 | 0 | 3 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 3 | 2 | 1 |
 
 Lỗi nào chỉ lượt 2 (theo cảnh) mới thấy, lượt 1 (theo người) không thấy? Vì sao?
 
